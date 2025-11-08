@@ -14,13 +14,13 @@ const Hero = () => {
                 Vivek Kurmi
               </h1>
               <p className="text-2xl md:text-3xl text-muted-foreground font-light">
-                Full Stack Developer
+                AI Engineer
               </p>
             </div>
             
             <p className="text-lg text-muted-foreground leading-relaxed">
-              Passionate about creating elegant solutions to complex problems. 
-              Specializing in modern web technologies and scalable applications.
+              AI Engineer at Tech Mahindra specializing in Generative AI, multi-agent systems, and model serving. 
+              Skilled in LangChain, LangGraph, AWS, and Azure, delivering scalable, intelligent, and automated AI solutions.
             </p>
             
             <div className="flex flex-wrap gap-4 pt-4">
