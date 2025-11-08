@@ -28,9 +28,11 @@ const Hero = () => {
                 <Mail className="mr-2 h-5 w-5" />
                 Contact Me
               </Button>
-              <Button size="lg" variant="outline" className="hover:bg-muted transition-all">
-                <Download className="mr-2 h-5 w-5" />
-                Download CV
+              <Button size="lg" variant="outline" className="hover:bg-muted transition-all" asChild>
+                <a href="/Vivek_Kurmi_CV.pdf" download="Vivek_Kurmi_CV.pdf">
+                  <Download className="mr-2 h-5 w-5" />
+                  Download CV
+                </a>
               </Button>
             </div>
             
