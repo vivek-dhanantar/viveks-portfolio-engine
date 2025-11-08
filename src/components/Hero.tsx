@@ -35,11 +35,25 @@ const Hero = () => {
             </div>
             
             <div className="flex gap-4 pt-4">
-              <Button size="icon" variant="ghost" className="hover:text-primary transition-all">
-                <Github className="h-5 w-5" />
+              <Button 
+                size="icon" 
+                variant="ghost" 
+                className="hover:text-primary transition-all"
+                asChild
+              >
+                <a href="https://github.com/vivek-kurmi" target="_blank" rel="noopener noreferrer">
+                  <Github className="h-5 w-5" />
+                </a>
               </Button>
-              <Button size="icon" variant="ghost" className="hover:text-primary transition-all">
-                <Linkedin className="h-5 w-5" />
+              <Button 
+                size="icon" 
+                variant="ghost" 
+                className="hover:text-primary transition-all"
+                asChild
+              >
+                <a href="https://www.linkedin.com/in/vivek-kurmi-80a52b139" target="_blank" rel="noopener noreferrer">
+                  <Linkedin className="h-5 w-5" />
+                </a>
               </Button>
             </div>
           </div>

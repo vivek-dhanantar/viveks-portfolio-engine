@@ -4,31 +4,48 @@ import { Briefcase, GraduationCap } from "lucide-react";
 const Experience = () => {
   const experiences = [
     {
-      title: "Senior Full Stack Developer",
-      company: "Tech Solutions Inc.",
-      period: "2022 - Present",
-      description: "Leading development of scalable web applications using React and Node.js. Mentoring junior developers and implementing best practices.",
+      title: "Data Scientist",
+      company: "Tech Mahindra",
+      period: "July 2023 - Present",
+      description: "Led development of multi-agent AI solutions for Cisco, automating corporate hierarchy mapping using LangChain, LangGraph, Serper.dev, Google Search, Crawl4AI, and pgvector-based RAG. Improved data accuracy by 90%, reduced processing time by 80%, and cut manual effort by 75%.",
+      highlights: [
+        "Delivered synthetic data generation pipelines for Google using Azure OpenAI LLM and LangChain agents",
+        "Built robust Guardrails system using RoBERTa based model to enhance LLM security",
+        "Developed AI companion with memory using LangMem, LangGraph and PostgreSQL",
+        "Engineered high-performance inference server using VLLM with Phi-2 and Meditron-7B models",
+        "Fine-tuned Vision Transformer model for rail track damage detection achieving 99% accuracy"
+      ]
     },
     {
-      title: "Full Stack Developer",
-      company: "Digital Innovations Ltd.",
-      period: "2020 - 2022",
-      description: "Developed and maintained multiple client projects. Specialized in React, TypeScript, and cloud deployments.",
-    },
-    {
-      title: "Junior Developer",
-      company: "StartUp Ventures",
-      period: "2019 - 2020",
-      description: "Contributed to frontend development using modern JavaScript frameworks. Gained experience in agile methodologies.",
+      title: "Data Engineer Intern",
+      company: "Decision Point Pvt. Ltd",
+      period: "July 2022 - August 2022",
+      description: "Contributed to Microsoft's Purview R&D project by implementing unified data governance solution using Azure Purview and Data Factory for data lineage.",
+      highlights: [
+        "Collected, cleaned, and transformed 30+ macroeconomic datasets using Databricks with Python",
+        "Built interactive Power BI dashboards to support data-driven insights and decision-making"
+      ]
     },
   ];
 
   const education = [
     {
-      degree: "Bachelor of Technology in Computer Science",
-      institution: "University of Technology",
-      period: "2015 - 2019",
-      description: "Graduated with honors. Focused on software engineering and web technologies.",
+      degree: "Master of Technology",
+      institution: "Indian Institute of Technology, Roorkee",
+      period: "June 2021 - May 2023",
+      description: "CGPA: 9.079",
+    },
+    {
+      degree: "Bachelor of Technology",
+      institution: "Maulana Azad National Institute of Technology, Bhopal",
+      period: "July 2016 - May 2020",
+      description: "CGPA: 7.030",
+    },
+    {
+      degree: "Class XII",
+      institution: "Govt Boys H S School Deori, Sagar, M.P.",
+      period: "July 2014 - April 2015",
+      description: "Percentage: 91.60%",
     },
   ];
 
@@ -61,7 +78,14 @@ const Experience = () => {
                     <span className="text-accent font-medium">{exp.period}</span>
                   </div>
                   <p className="text-muted-foreground font-medium mb-2">{exp.company}</p>
-                  <p className="text-muted-foreground">{exp.description}</p>
+                  <p className="text-muted-foreground mb-3">{exp.description}</p>
+                  {exp.highlights && (
+                    <ul className="list-disc list-inside space-y-1 text-muted-foreground text-sm">
+                      {exp.highlights.map((highlight, i) => (
+                        <li key={i}>{highlight}</li>
+                      ))}
+                    </ul>
+                  )}
                 </Card>
               ))}
             </div>

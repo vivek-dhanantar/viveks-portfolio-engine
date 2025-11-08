@@ -31,13 +31,20 @@ const About = () => {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="space-y-4 animate-slide-in">
             <p className="text-lg text-muted-foreground leading-relaxed">
-              I'm a dedicated Full Stack Developer with a passion for building 
-              exceptional digital experiences. With expertise in modern web technologies, 
-              I transform ideas into robust, scalable applications.
+              I am a Data Scientist at Tech Mahindra with hands-on experience in developing multi-agent AI systems, 
+              LLM-based automation, and data-driven solutions. I have led projects for clients like Cisco and Google, 
+              leveraging frameworks such as LangChain, LangGraph, CrewAI, and pgvector-based RAG to enhance accuracy, 
+              scalability, and automation efficiency.
             </p>
             <p className="text-lg text-muted-foreground leading-relaxed">
-              My approach combines technical excellence with creative problem-solving, 
-              ensuring every project not only meets but exceeds expectations.
+              My expertise spans machine learning, deep learning, model serving (VLLM, Triton, HuggingFace), and cloud 
+              platforms including AWS and Azure. I have also engineered AI guardrails, built LLM companions with memory, 
+              and fine-tuned Vision Transformer models achieving 99% accuracy in real-world applications.
+            </p>
+            <p className="text-lg text-muted-foreground leading-relaxed">
+              With certifications in AWS Cloud and AI Practitioner, and a strong foundation in Python, SQL, and FastAPI, 
+              I'm passionate about building secure, intelligent, and scalable AI solutions. Recognized with the Tech Mahindra 
+              Star Award and Bravo Award, I thrive on innovation and collaborative problem-solving.
             </p>
           </div>
           

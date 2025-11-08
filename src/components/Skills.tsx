@@ -4,16 +4,28 @@ import { Card } from "@/components/ui/card";
 const Skills = () => {
   const skillCategories = [
     {
-      title: "Frontend",
-      skills: ["React", "TypeScript", "Next.js", "Tailwind CSS", "JavaScript", "HTML/CSS"],
+      title: "Languages",
+      skills: ["Python", "SQL"],
     },
     {
-      title: "Backend",
-      skills: ["Node.js", "Express", "Python", "PostgreSQL", "MongoDB", "REST APIs"],
+      title: "Frameworks",
+      skills: ["LangChain", "LangGraph", "CrewAI", "Pandas", "NumPy", "Scikit-Learn", "TensorFlow", "PyTorch", "FastAPI"],
     },
     {
-      title: "Tools & Others",
-      skills: ["Git", "Docker", "AWS", "CI/CD", "Agile", "Testing"],
+      title: "Tools",
+      skills: ["Power BI", "Azure", "AWS Bedrock", "AWS Lambda", "SQL Server", "Docker", "Git", "MCP"],
+    },
+    {
+      title: "Platforms",
+      skills: ["Visual Studio", "Jupyter Notebook", "PyCharm", "Putty", "VS Code", "Colab"],
+    },
+    {
+      title: "Model Serving",
+      skills: ["VLLM", "Triton Inference Server", "HuggingFace Transformers", "Ollama"],
+    },
+    {
+      title: "Soft Skills",
+      skills: ["Collaboration", "Innovation", "Decision-Making", "Problem-Solving", "Technical Communication"],
     },
   ];
 
@@ -25,7 +37,7 @@ const Skills = () => {
           <div className="w-20 h-1 bg-gradient-primary mx-auto rounded-full"></div>
         </div>
         
-        <div className="grid md:grid-cols-3 gap-6">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
           {skillCategories.map((category, index) => (
             <Card 
               key={index} 

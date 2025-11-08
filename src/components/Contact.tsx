@@ -7,19 +7,19 @@ const Contact = () => {
     {
       icon: Mail,
       label: "Email",
-      value: "vivek.kurmi@example.com",
-      href: "mailto:vivek.kurmi@example.com",
+      value: "vivekdhanantar@gmail.com",
+      href: "mailto:vivekdhanantar@gmail.com",
     },
     {
       icon: Phone,
       label: "Phone",
-      value: "+91 98765 43210",
-      href: "tel:+919876543210",
+      value: "+91 7828166109",
+      href: "tel:+917828166109",
     },
     {
       icon: MapPin,
       label: "Location",
-      value: "Mumbai, India",
+      value: "India",
       href: "#",
     },
   ];
