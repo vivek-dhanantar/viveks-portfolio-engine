@@ -78,7 +78,7 @@ const Experience = () => {
                     <span className="text-accent font-medium">{exp.period}</span>
                   </div>
                   <p className="text-muted-foreground font-medium mb-2">{exp.company}</p>
-                  <p className="text-muted-foreground mb-3">{exp.description}</p>
+                  <p className="text-muted-foreground mb-3 text-sm">{exp.description}</p>
                   {exp.highlights && (
                     <ul className="list-disc list-inside space-y-1 text-muted-foreground text-sm">
                       {exp.highlights.map((highlight, i) => (
