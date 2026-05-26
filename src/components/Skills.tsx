@@ -9,11 +9,11 @@ const Skills = () => {
     },
     {
       title: "Frameworks",
-      skills: ["LangChain", "LangGraph", "CrewAI", "Pandas", "NumPy", "Scikit-Learn", "TensorFlow", "PyTorch", "FastAPI"],
+      skills: ["LangChain", "LangGraph", "CrewAI", "Langfuse", "Pandas", "NumPy", "Scikit-Learn", "TensorFlow", "PyTorch", "FastAPI"],
     },
     {
       title: "Tools",
-      skills: ["Power BI", "Azure", "AWS Bedrock", "AWS Lambda", "SQL Server", "Docker", "Git", "MCP"],
+      skills: ["Power BI", "Azure", "AWS Bedrock", "AWS Lambda", "SQL Server", "Neo4j", "Docker", "Git", "MCP"],
     },
     {
       title: "Platforms",
