@@ -10,7 +10,7 @@ const projects = [
     title: "Data Enrichment and Validation",
     client: "Thomson Reuters",
     location: "Offsite",
-    duration: "Oct 2025 to Present",
+    duration: "Oct 2025 to Jan 2026",
     type: "Full Time",
     description: "Designed and implemented multiple data enrichment and validation use cases based on dynamic client requirements, managing full end-to-end interaction and iterative delivery cycles. Built robust, production-grade pipelines leveraging Thomson Reuters platform LLMs, advanced web-scraping techniques, and data validation frameworks.",
     technologies: ["LLMs", "Web Scraping", "Data Pipelines", "Validation Frameworks"]
