@@ -16,7 +16,7 @@ const Hero = () => {
               </p>
             </div>
             
-            <p className="text-lg text-muted-foreground leading-relaxed">AI Engineer at Tech Mahindra  specializing in Generative AI, multi-agent systems, and model serving. Skilled in LangChain, LangGraph, AWS, and Azure, delivering scalable, intelligent, and automated AI solutions.</p>
+            <p className="text-lg text-muted-foreground leading-relaxed">AI Engineer at Infobeans  specializing in Generative AI, multi-agent systems, and model serving. Skilled in LangChain, LangGraph, AWS, and Azure, delivering scalable, intelligent, and automated AI solutions.</p>
             
             <div className="flex flex-wrap gap-4 pt-4">
               <Button size="lg" className="bg-gradient-primary hover:opacity-90 transition-all">
