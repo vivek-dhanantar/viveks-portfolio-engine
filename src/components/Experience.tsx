@@ -4,6 +4,15 @@ import { Briefcase, GraduationCap } from "lucide-react";
 const Experience = () => {
   const experiences = [
     {
+      title: "AI Engineer",
+      company: "Infobeans",
+      period: "Jan 2026 - Present",
+      description: "Built Azure + LangChain pipeline to auto-classify YouTube ads using Azure Cognitive Services and LangSmith tracing. Achieved 95% detection accuracy and 30% reduction in manual review.",
+      highlights: [
+        "Led PoC deployment of Langfuse, Agenta AI, and Promptfoo for prompt versioning, shaping the team's production tooling choice"
+      ]
+    },
+    {
       title: "Data Scientist",
       company: "Tech Mahindra",
       period: "July 2023 - Jan 2026",
