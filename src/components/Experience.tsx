@@ -6,7 +6,7 @@ const Experience = () => {
     {
       title: "Data Scientist",
       company: "Tech Mahindra",
-      period: "July 2023 - Present",
+      period: "July 2023 - Jan 2026",
       description: "Led development of multi-agent AI solutions for Cisco, automating corporate hierarchy mapping using LangChain, LangGraph, Serper.dev, Google Search, Crawl4AI, and pgvector-based RAG. Improved data accuracy by 90%, reduced processing time by 80%, and cut manual effort by 75%.",
       highlights: [
         "Delivered synthetic data generation pipelines for Google using Azure OpenAI LLM and LangChain agents",

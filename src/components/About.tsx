@@ -23,7 +23,7 @@ const About = () => {
         
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="space-y-4 animate-slide-in">
-            <p className="text-lg text-muted-foreground leading-relaxed">I am an AI Engineer at Infobeans with 2.8 years of hands-on experience in developing multi-agent AI systems, LLM-based automation, and data-driven solutions. I have led projects for clients like Cisco and Google, leveraging frameworks such as LangChain, LangGraph, CrewAI, and pgvector-based RAG to enhance accuracy, scalability, and automation efficiency.</p>
+            <p className="text-lg text-muted-foreground leading-relaxed">I am an AI Engineer at Infobeans with 3 years of hands-on experience in developing multi-agent AI systems, LLM-based automation, and data-driven solutions. I have led projects for clients like Cisco and Google, leveraging frameworks such as LangChain, LangGraph, CrewAI, and pgvector-based RAG to enhance accuracy, scalability, and automation efficiency.</p>
             <p className="text-lg text-muted-foreground leading-relaxed">
               My expertise spans machine learning, deep learning, model serving (VLLM, Triton, HuggingFace), and cloud 
               platforms including AWS and Azure. I have also engineered AI guardrails, built LLM companions with memory, 
